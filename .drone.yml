@@ -7,8 +7,5 @@ platform:
   arch: amd64
 
 steps:
-- name: greeting
-  commands:
-  - echo hello world
-
-...
+- name: test
+  image: golang:1.14.4
